@@ -1,0 +1,39 @@
+{
+  "name": "yoel",
+  "version": "1.0.1",
+  "description": "Get hyped! A CLI tool and module that delivers colorful encouragement when you need it most.",
+  "homepage": "https://github.com/ynozar/yoel#readme",
+  "bugs": {
+    "url": "https://github.com/ynozar/yoel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynozar/yoel.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "yoel": "src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "hype",
+    "motivation",
+    "encouragement",
+    "fun",
+    "colors",
+    "ascii-art"
+  ],
+  "scripts": {
+    "test": "node --test src/*.test.js",
+    "hype": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

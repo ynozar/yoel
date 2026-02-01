@@ -1,0 +1,55 @@
+# Claude Code
+.claude/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Tests
+*.test.js
+*.spec.js
+__tests__/
+test/
+tests/
+coverage/
+.nyc_output/
+
+# Development config
+.editorconfig
+.eslintrc*
+.prettierrc*
+.eslintignore
+.prettierignore
+jsconfig.json
+tsconfig.json
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+*.tgz
+
+# Documentation (optional - remove if you want docs in package)
+CHANGELOG.md
+CONTRIBUTING.md
+docs/
+
+# Misc
+.env
+.env.*
+*.bak
