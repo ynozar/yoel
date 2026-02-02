@@ -1,6 +1,6 @@
 {
   "name": "yoel",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Yoel Nozar's digital business card. Run `npx yoel` to see it!",
   "homepage": "https://github.com/ynozar/yoel#readme",
   "bugs": {
