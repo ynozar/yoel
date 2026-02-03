@@ -13,14 +13,14 @@ interface CardConfig {
 
 const card: CardConfig = {
   name: 'Yoel Nozar',
-  title: 'Software Engineer',
+  title: 'Software Engineer II  - Trust & Safety @ McDonalds',
 
   // Links (set to null to hide)
   github: 'ynozar',
   website: 'yoel.dev',
-  linkedin: 'ynozar',
+  linkedin: 'yoel-nozar',
   twitter: null,
-  email: null,
+  email: "yo@yoel.dev",
 };
 
 // ============================================
@@ -62,8 +62,8 @@ interface Link {
 
 export function renderCard(): string {
   const lines: string[] = [];
-  const width = 48;
-  const inner = width - 4;
+  const width = 56;
+  const inner = width - 6;
 
   const topBorder = `${c.dim}┌${'─'.repeat(width - 2)}┐${c.reset}`;
   const botBorder = `${c.dim}└${'─'.repeat(width - 2)}┘${c.reset}`;
