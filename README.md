@@ -19,12 +19,6 @@ npx yoel
 └──────────────────────────────────────────────┘
 ```
 
-## Hidden Feature
-
-```bash
-npx yoel --hype        # Get a motivational message
-npx yoel --hype --fire # MAXIMUM HYPE
-```
 
 ## License
 
